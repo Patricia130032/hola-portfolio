@@ -2,7 +2,7 @@
   <div class="not-found-container">
     <div class="content">
       <h1 class="arkhip-title">Oups !</h1>
-      <p class="message">Cette page est partie en vacances... En attendant son retour, reconstituez ce paysage d'automne.</p>
+      <p class="message">Cette page est partie en vacances... En attendant son retour, reconstituez ce paysage d'automne. </p>
 
       <div class="puzzle-board">
 <div
