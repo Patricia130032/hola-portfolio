@@ -2,7 +2,10 @@
   <div class="not-found-container">
     <div class="content">
       <h1 class="arkhip-title">Oups !</h1>
-      <p class="message">Cette page est partie en vacances... En attendant son retour, reconstituez ce paysage d'automne. </p>
+      <p class="message">Cette page s'est égarée dans le brouillard ...
+        En attendant son retour, nous vous proposons un moment de détente.
+        Reconstituez l'image en cliquant sur les cases autour de l'espace vide.
+      </p>
 
       <div class="puzzle-board">
 <div
