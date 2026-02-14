@@ -69,6 +69,15 @@
             <p>Parce que chaque projet porte une histoire unique, je mets ma sensibilité créative au service de vos idées. Mon approche est simple : vous écouter vraiment pour traduire votre vision en images cohérentes et élégantes.</p>
             <p>Que vous soyez au début d'une aventure ou en quête d'un second souffle pour votre image, je vous accompagne avec soin et discrétion. Travaillons ensemble, à votre rythme, pour donner à votre projet l'éclat qu'il mérite.</p><br>
             <p>Patricia</p>
+          </div>
+
+          <div class="about-aside">
+            <div class="about-image">
+              <div class="image-frame">
+                <img src="@/assets/patricia-hola.webp" alt="Patricia Hola" class="profile-photo" />
+                <div class="frame-decoration"></div>
+              </div>
+            </div>
 
             <div class="about-details">
               <div class="detail-item">
@@ -84,13 +93,6 @@
                   <span class="icon">☎</span> +32 475 933 442
                 </a>
               </div>
-            </div>
-          </div>
-
-          <div class="about-image">
-            <div class="image-frame">
-              <img src="@/assets/patricia-hola.webp" alt="Patricia Hola" class="profile-photo" />
-              <div class="frame-decoration"></div>
             </div>
           </div>
         </div>
@@ -162,7 +164,7 @@ const scrollCarousel = (direction) => {
 </script>
 
 <style scoped>
-/* --- BASE & UTILS --- */
+/* --- BASE --- */
 .portfolio-wrapper { background-color: #F6F2EE; color: #2B2B2B; font-family: 'Open Sans', sans-serif; min-height: 100vh; overflow-x: hidden; }
 
 /* HERO */
@@ -204,10 +206,11 @@ const scrollCarousel = (direction) => {
 .control-btn { background: none; border: 1px solid rgba(43, 43, 43, 0.2); width: 50px; height: 50px; cursor: pointer; margin-right: 15px; transition: 0.3s; }
 .control-btn:hover { background: #2B2B2B; color: white; }
 
-/* À PROPOS (STYLE RESTAURÉ) */
-.about-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; align-items: center; margin-top: 40px; }
+/* À PROPOS */
+.about-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; align-items: flex-start; margin-top: 40px; }
 .about-greeting { font-family: 'Arkhip', sans-serif; font-size: 1.8rem; margin-bottom: 25px; color: #2B2B2B; }
 .about-text p { font-size: 1.1rem; line-height: 1.8; color: #444; margin-bottom: 20px; }
+
 .about-details { margin-top: 40px; display: flex; flex-direction: column; gap: 15px; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 30px; }
 .detail-item { display: flex; flex-direction: column; }
 .detail-item strong { font-family: 'Arkhip', sans-serif; font-size: 0.75rem; text-transform: uppercase; color: #E72362; letter-spacing: 1px; }
@@ -216,7 +219,7 @@ const scrollCarousel = (direction) => {
 .icon { color: #E72362; font-weight: bold; width: 20px; }
 
 /* PHOTO & CADRE ROSE */
-.about-image { position: relative; display: flex; justify-content: center; }
+.about-image { position: relative; display: flex; justify-content: center; margin-bottom: 20px; }
 .image-frame { position: relative; width: 100%; max-width: 350px; }
 .profile-photo { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 4px; position: relative; z-index: 2; }
 .frame-decoration { position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; border: 2px solid #E72362; z-index: 1; border-radius: 4px; }
@@ -230,7 +233,8 @@ const scrollCarousel = (direction) => {
   .carousel-controls { display: none; }
   .progress-bar-container { display: block; }
   .about-grid { grid-template-columns: 1fr; }
-  .about-image { margin-bottom: 50px; }
+  .about-aside { margin-top: 40px; }
+  .about-details { margin-top: 60px; } /* Espace pour laisser respirer l'image et son cadre rose */
   .image-frame { max-width: 280px; }
 }
 </style>
