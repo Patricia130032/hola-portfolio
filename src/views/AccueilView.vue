@@ -230,7 +230,7 @@ const scrollCarousel = (direction) => {
   .carousel-controls { display: none; }
   .progress-bar-container { display: block; }
   .about-grid { grid-template-columns: 1fr; }
-  .about-image { order: -1; margin-bottom: 50px; }
+  .about-image { margin-bottom: 50px; }
   .image-frame { max-width: 280px; }
 }
 </style>
