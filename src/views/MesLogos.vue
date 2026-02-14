@@ -7,7 +7,7 @@
     </nav>
 
     <header class="gallery-header">
-      <h1 class="arkhip-title">Logotypes</h1>
+      <h1 class="arkhip-title">Logos</h1>
       <div class="separator"></div>
       <p class="gallery-subtitle">Identités visuelles & Marques</p>
     </header>
