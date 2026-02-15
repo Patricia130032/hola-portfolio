@@ -1,44 +1,18 @@
-# Hola-portfolio
+#  Portfolio Personnel - Patricia Lecoutère
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet est un portfolio interactif développé avec **Vue.js**, mettant en avant mes compétences en intégration web et en développement front-end.
 
-## Recommended IDE Setup
+##  Fonctionnalités clés
+* **Architecture Vue.js :** Utilisation de composants réutilisables.
+* **Carrousel Dynamique :** Développement d'un slider interactif pour la présentation des projets (gestion des index et transitions fluides).
+* **Responsive Design :** Interface optimisée pour tous les supports (Mobile, Tablette, Desktop).
+* **Déploiement Continu :** Site hébergé et mis à jour automatiquement via Vercel.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+##  Technologies
+* **Framework :** Vue.js 3
+* **Styles :** CSS3 / SCSS
+* **Déploiement :** Vercel
+* **Gestion de version :** Git / GitHub
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+##  Liens
+* **Site en ligne :** [https://hola-portfolio.vercel.app](https://hola-portfolio.vercel.app)
